@@ -1,0 +1,266 @@
+.App {
+  text-align: center;
+}
+
+.base-grid{
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  width: 200mm;
+  height: 25mm;
+  margin-bottom: 15px;
+}
+
+p {
+  position: absolute;
+  padding: 2px;
+  margin: 0;
+}
+
+.material-icons{
+  position: absolute;
+  left: 0;
+}
+
+.inner-grid{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  position: absolute;
+}
+
+.mach-number{
+  bottom: 0;
+  right: 0;
+}
+
+.wtc {
+  bottom: 0;
+}
+
+.type {
+  right: 0;
+}
+
+.calls{
+  font-weight: bold;
+  margin-top: 25%;
+  margin-left: 25%;
+}
+
+.abcdef-box{
+  display: inline-grid;
+  width: 20%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.arrival-small-box{
+  width: 6%;
+  height: 50%;
+}
+
+.arrival-g-box{
+  width: 20%;
+  height: 100%;
+  left: 20%;
+  top: 0;
+}
+
+.arrival-hij-box{
+  width: 8%;
+  height: 100%;
+  left: 40%;
+  top: 0;
+  justify-content: center;
+  display: flex;
+}
+
+.arrival-k-box{
+  width: 11%;
+  height: 100%;
+  left: 48%;
+  top: 0;
+  justify-content: center;
+  display: flex;
+}
+
+.arrival-ades{
+  bottom: 25%;
+}
+
+.arrival-route-first{
+  left: 1%;
+}
+
+.arrival-route-second{
+  left: 1%;
+  top: 15%;
+}
+
+.arrival-route-third{
+  left: 1%;
+  top: 30%;
+}
+
+.arrival-altitude {
+  font-weight: bold;
+}
+
+.arrival-eta{
+  bottom: 0;
+}
+
+.arrival-l-box{
+  left: 59%;
+  top: 0;
+}
+
+.arrival-m-box{
+  left: 59%;
+  top: 50%;
+}
+
+.arrival-n-box{
+  left: 65%;
+  top: 0;
+}
+
+.arrival-o-box{
+  left: 65%;
+  top: 50%;
+}
+
+.arrival-p-box{
+  left: 71%;
+  top: 0;
+}
+
+.arrival-q-box{
+  left: 71%;
+  top: 50%;
+}
+
+.arrival-r-box{
+  left: 77%;
+  top: 0;
+}
+
+.arrival-s-box{
+  left: 77%;
+  top: 50%;
+}
+
+.arrival-t-box{
+  width: 17%;
+  height: 100%;
+  left: 83%;
+  top: 0;
+}
+
+.departure-ades{
+  margin-top: 15%;
+}
+
+.departure-adep{
+  font-size: x-small;
+}
+
+.departure-rfl{
+  top: 0;
+  right: 0;
+}
+
+.departure-goto{
+  font-weight: bold;
+  margin-top: 30%;
+  right: 0;
+}
+
+.departure-g-box{
+  width: 24%;
+  height: 50%;
+  left: 20%;
+  top: 0;
+}
+
+.departure-i-box{
+  display: flex;
+  width: 8%;
+  height: 25%;
+  left: 28%;
+  top: 50%;
+  justify-content: center;
+}
+
+.departure-time{
+  align-self: center;
+}
+
+.departure-h-box{
+  width: 8%;
+  height: 50%;
+  left: 20%;
+  top: 50%;
+  justify-content: center;
+  display: flex;
+}
+
+.departure-route{
+  align-self: center;
+}
+
+.departure-sid{
+  bottom: 0;
+}
+
+.departure-l-box{
+  width: 68%;
+  height: 25%;
+  left: 30%;
+  top: 0;
+}
+
+.departure-n-box{
+  width: 33%;
+  height: 100%;
+  left: 54%;
+  top: 0;
+}
+
+.departure-op-box{
+  width: 10%;
+  height: 100%;
+  left: 87%;
+  top: 0;
+}
+
+.departure-m-box{
+  width: 10%;
+  height: 100%;
+  left: 44%;
+  top: 0;
+}
+
+.departure-j-box{
+  top: 75%;
+  left: 28%;
+  width: 8%;
+  height: 25%;
+}
+
+.departure-k-box{
+  width: 8%;
+  height: 50%;
+  left: 36%;
+  top: 50%;
+}
+
+.black-cell{
+  width: 3%;
+  height: 100%;
+  left: 97%;
+  top: 0;
+  background-color: black;
+}
