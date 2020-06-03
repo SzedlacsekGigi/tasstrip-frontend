@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import {Cell, Grid} from "react-mdl";
+import { InputBase } from '@material-ui/core';
+
 
 class Departure extends Component {
 
@@ -24,7 +26,7 @@ class Departure extends Component {
                         <p className="departure-time">{this.props.departure.time}</p>
                     </Cell>
                     <Cell className="inner-grid departure-j-box">
-                        <input style={{position: "relative", width: "100%"}} type="text"/>
+                        <InputBase fullWidth={true}/>
                     </Cell>
                     <Cell className="inner-grid departure-k-box"/>
                     <Cell className="inner-grid departure-m-box">

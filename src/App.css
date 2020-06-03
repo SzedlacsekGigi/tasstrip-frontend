@@ -248,6 +248,7 @@ p {
   left: 28%;
   width: 8%;
   height: 25%;
+  justify-content: center;
 }
 
 .departure-k-box{
