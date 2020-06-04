@@ -1,8 +1,10 @@
 import React, {Component} from "react";
 import axios from "axios";
 import Arrival from "./Arrival";
+import BackButton from "./BackButton";
+import {Grid} from "react-mdl";
 
-class ArrivalPage extends Component{
+class ArrivalPage extends Component {
 
     state = {
         arrivals: []
@@ -13,16 +15,19 @@ class ArrivalPage extends Component{
             .then(response => {
                 this.setState({arrivals: Array.from(response.data)});
             }).catch(error => {
-                console.log(error);
+            console.log(error);
         });
     };
 
     render() {
         return (
             <div className="arrivals-page">
-                {this.state.arrivals.map((arrival) => (
-                    <Arrival arrival={arrival}/>
-                ))}
+                <Grid>
+                    {this.state.arrivals.map((arrival) => (
+                        <Arrival arrival={arrival}/>
+                    ))}
+                </Grid>
+                <BackButton/>
             </div>
         );
     }

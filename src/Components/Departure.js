@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import {Cell, Grid} from "react-mdl";
-import { InputBase } from '@material-ui/core';
 
 
 class Departure extends Component {

@@ -328,3 +328,7 @@ button{
 .departures-button{
   background-color: darkblue;
 }
+
+.back-button{
+  position: absolute;
+}

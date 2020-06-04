@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import axios from "axios";
 import {Grid} from "react-mdl";
 import Departure from "./Departure";
+import BackButton from "./BackButton";
 
 class DeparturePage extends Component{
 
@@ -26,6 +27,7 @@ class DeparturePage extends Component{
                         <Departure departure={departure}/>
                     ))}
                 </Grid>
+                <BackButton/>
             </div>
         );
     }

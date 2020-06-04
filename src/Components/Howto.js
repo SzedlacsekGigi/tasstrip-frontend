@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import BackButton from "./BackButton";
 
 class Howto extends Component {
 
@@ -17,6 +18,7 @@ class Howto extends Component {
                     <h3>Click save.</h3>
                     <h3>Now you have your printable document!</h3>
                 </div>
+                <BackButton/>
             </div>
         );
     }
