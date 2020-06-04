@@ -13,8 +13,6 @@ class Landing extends Component {
         e.preventDefault();
         this.setState({url: '/' + [e.target.value]});
         this.setState({redirect: true});
-        console.log("I am clicked" + this.state.url);
-
     }
 
     renderRedirect = () => {
