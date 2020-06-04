@@ -28,6 +28,28 @@
   transform: translate(-50%, -50%);
 }
 
+.howto{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.howto-instructions{
+  border: solid;
+  border-color: darkorange;
+  background-color: white;
+  color: darkblue;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 p {
   position: absolute;
   padding: 2px;
