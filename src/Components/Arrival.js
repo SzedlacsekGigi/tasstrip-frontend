@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Cell, Grid} from "react-mdl";
+import {InputBase} from "@material-ui/core";
 
 class Arrival extends Component {
 
@@ -22,7 +23,8 @@ class Arrival extends Component {
                     <Cell className="inner-grid arrival-hij-box">
                         <p>{this.props.arrival.adep}</p>
                         <p className="arrival-ades">{this.props.arrival.ades}</p>
-                        <p className="arrival-eta"></p>
+                        <p className="arrival-eta"><InputBase fullWidth={true}/>
+                        </p>
                     </Cell>
                     <Cell className="inner-grid arrival-k-box">
                         <i className="material-icons">arrow_downward</i>

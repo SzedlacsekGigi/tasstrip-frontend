@@ -25,9 +25,7 @@ class Departure extends Component {
                     <Cell className="inner-grid departure-i-box">
                         <p className="departure-time">{this.props.departure.time}</p>
                     </Cell>
-                    <Cell className="inner-grid departure-j-box">
-                        <InputBase fullWidth={true}/>
-                    </Cell>
+                    <Cell className="inner-grid departure-j-box"/>
                     <Cell className="inner-grid departure-k-box"/>
                     <Cell className="inner-grid departure-m-box">
                         <p className="departure-goto">{this.props.departure.goTo}</p>
