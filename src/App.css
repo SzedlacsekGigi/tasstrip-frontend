@@ -11,6 +11,23 @@
   margin-bottom: 15px;
 }
 
+.landing-page{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.buttons{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 p {
   position: absolute;
   padding: 2px;

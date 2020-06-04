@@ -16,7 +16,7 @@ class Landing extends Component {
     }
 
     renderRedirect = () => {
-        if(this.state.redirect){
+        if (this.state.redirect) {
             return <Redirect to={{pathname: this.state.url}}/>
         }
     }
@@ -24,10 +24,12 @@ class Landing extends Component {
     render() {
         return (
             <div className="landing-page">
-                {this.renderRedirect()}
-                <button value="howto" className="howto-button" onClick={this.onClick}>How it works</button>
-                <button value="arrivals" className="arrivals-button" onClick={this.onClick}>Arrivals</button>
-                <button value="departures" className="departures-button" onClick={this.onClick}>Departures</button>
+                <div className="buttons">
+                    {this.renderRedirect()}
+                    <button value="howto" className="howto-button" onClick={this.onClick}>How it works</button>
+                    <button value="arrivals" className="arrivals-button" onClick={this.onClick}>Arrivals</button>
+                    <button value="departures" className="departures-button" onClick={this.onClick}>Departures</button>
+                </div>
             </div>
         );
     }
