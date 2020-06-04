@@ -264,3 +264,28 @@ p {
   top: 0;
   background-color: black;
 }
+
+button{
+  border: 1px;
+  color: white;
+  padding: 15px 32px;
+  margin: 3px;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.howto-button{
+  background-color: blue;
+}
+
+.arrivals-button{
+  background-color: darkorange;
+}
+
+.departures-button{
+  background-color: darkblue;
+}

@@ -25,9 +25,9 @@ class Landing extends Component {
         return (
             <div className="landing-page">
                 {this.renderRedirect()}
-                <button value="howto" onClick={this.onClick}>How it works</button>
-                <button value="arrivals" onClick={this.onClick}>Arrivals</button>
-                <button value="departures" onClick={this.onClick}>Departures</button>
+                <button value="howto" className="howto-button" onClick={this.onClick}>How it works</button>
+                <button value="arrivals" className="arrivals-button" onClick={this.onClick}>Arrivals</button>
+                <button value="departures" className="departures-button" onClick={this.onClick}>Departures</button>
             </div>
         );
     }
